@@ -13,6 +13,8 @@ import { ChatComponent } from './components/chat/chat.component';
 import { MyAngularAppComponent } from './components/my-angular-app/my-angular-app.component';
 import { MyReactAppComponent } from './components/my-react-app/my-react-app.component';
 import { AboutComponent } from './components/about/about.component';
+import { ServiceComponent } from './components/service/service.component';
+import { ActionComponent } from './components/action/action.component';
 
 
 @NgModule({
@@ -28,7 +30,9 @@ import { AboutComponent } from './components/about/about.component';
     ChatComponent,
     MyAngularAppComponent,
     MyReactAppComponent,
-    AboutComponent
+    AboutComponent,
+    ServiceComponent,
+    ActionComponent
   ],
   imports: [
     BrowserModule,
